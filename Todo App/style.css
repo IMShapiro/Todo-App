@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.input-section{
+    background-color: cornflowerblue;
+    height: 90px;
+}
+input{
+    margin: 0;
+    position: relative;
+    left: 40vh;
+    width: 250px;
+}
+.add-item-button{
+    position: relative;
+    left: 40vh;
+}
+li{
+    list-style-type: none;
+    width: fit-content;
+    height: 3vh;
+
+    padding-right: 50px;
+}
+li:hover{
+    background-color: silver;
+}
+.list button{
+    background-color: transparent;
+    border: none;
+    left: 30vh;
+}
+.list button:hover{
+    color: white;
+    background-color: red;
+    border: none;
+}
+li.checked{
+    background-color: darkgrey;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+}
